@@ -5,6 +5,13 @@ ehthumbs.db
 # Folder config file
 Desktop.ini
 
+#Ignore 'bin' dir
+bin/
+obj/
+
+#Ignore suo files from solution
+*.suo
+
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
