@@ -19,7 +19,7 @@ namespace HelloWorldForGit
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello World - See Magic!");           
+            MessageBox.Show("Hello " + NameText.Text + "!");           
         }
     }
 }
