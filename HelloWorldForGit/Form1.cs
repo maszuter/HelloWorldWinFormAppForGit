@@ -12,7 +12,14 @@ namespace HelloWorldForGit
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello " + NameText.Text + "!");           
+            if (NameText.TextLength > 0)
+            {
+                MessageBox.Show("Hello " + NameText.Text + "!", "Magic", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                MessageBox.Show("Name Missing", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
